@@ -33,7 +33,7 @@ View more themes from this author: https://digitalcenturysf.com
 
 	![](/img/i3.png)  
 	  
-	c) Click on the Browse button and find the viktor-lite.zip file  and then click on the "Install" button.    
+	c) Click on the Browse button and find the viktor-classic.zip file  and then click on the "Install" button.    
 
 	![](/img/i4.png)  
 	
@@ -44,8 +44,8 @@ View more themes from this author: https://digitalcenturysf.com
 
  
 2. Via FTP:  
-	* Unzip the package you downloaded, inside you will find a file called viktor-lite.zip   
-	* Login to your web server via FTP and browse to wp-content/themes and upload the Viktor-lite folder here    
+	* Unzip the package you downloaded, inside you will find a file called viktor-classic.zip   
+	* Login to your web server via FTP and browse to wp-content/themes and upload the viktor-classic folder here    
 	* Login to your WordPress dashboard and go to Appearance > Themes, the Viktor theme will be visible, click Activate and you're done!    
   
 3. Theme Customizer	Options:  
