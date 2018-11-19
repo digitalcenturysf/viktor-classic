@@ -1,0 +1,124 @@
+/**
+Theme Name: Viktor Classic
+Theme URI: https://digitalcenturysf.com/templates/viktor-premium-corporate-business-theme/
+Author: DigitalCenturySF
+Author URI: https://digitalcenturysf.com
+Description: Viktor Classic is a clean, creative, elegant, fun, colorful, powerful, motivational, simple, and stylish WordPress theme. Viktor Classic is designed for all type of corporations such as banking, finance, consulting, management, real estate, insurance, legal & law, startup, venture capital, technology, and so on. It is a clean, super flexible, fast in loading, bootstrap based, mobile responsive and modern looking premium quality WordPress theme. It can be used for any business or personal website relating to business, technology, travel, food, people, architecture, health, sports, animals, modern, design, corporate, vector, nature, commerical, holiday, advertising, game, presentation, computer, marketing, building, ecommerce, internet, office, company, digital, portfolio, multipurpose, transportation, fitness, weather, disco, valentine, cafe, sci-fi, agriculture, relaxation, mountain, baby, television, earth, church, cinema, furniture, hospital, healthcare, infographic, vegetarian, smartphone, iphone, android, hip hop, seo, night club, hotel, college For more information, visit our website: https://digitalcenturysf.com/
+Template: viktor-lite
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, one-column, two-columns, blog, right-sidebar, theme-options, footer-widgets, left-sidebar, grid-layout, custom-header
+Text Domain: viktor-classic
+*/
+header { 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+header.fixed-header{ 
+    border-bottom-color: #000;
+}
+.masonry-loop .masonry-entry.col-md-4{
+	width: 33.33%;
+}
+.masonry-loop .masonry-entry.col-md-6{
+	width: 50%;
+}
+.vcontent {
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 25px;
+}
+.vcontent.no-img{
+	border-top-width: 1px; 
+}
+.inner-page-header { 
+    height: 590px;
+}
+.banner-botton {
+    padding-top: 15px;
+}
+.classic .header-page-title {
+    color: #fff;
+}
+.classic .header-page-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.classic .header-page-title h3 {
+    line-height: 20px;
+}
+.classic .banner-botton ul li {
+    display: inline-block;
+}
+.classic .header-page-title a {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px 20px; 
+    margin: 0 10px;
+}
+.classic .header-page-title li:nth-child(1) a{
+	border-color: #01b1d7;
+	background: #01b1d7;
+	color: #fff;
+}
+.classic .header-page-title a:hover{
+	color: #fff;
+}
+.classic.inner-page-header {
+    padding: 240px 0 170px !important;
+    height: inherit;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    width: 20px;
+    height: 18px;
+    margin-top: 3px;
+    padding: 12px !important;
+    text-align: center;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    z-index: 2;
+    font-weight: 700;
+    background: #ddd !important;
+    border: 0!important;
+    line-height: 18px;
+}
+
+@media only screen and (max-width: 767px){
+	.main-header-area,
+	.mobile-menu-area {
+	    display: block;
+	}
+	.container {
+	    width: inherit;
+	} 
+	header.fixed-header,
+	header {
+	    border-bottom:0;
+	    position: absolute;
+	}
+	.classic.inner-page-header {
+	    padding: 120px 0 124px !important; 
+	}
+	.main-header-area .logo-area { 
+	    position: absolute;
+	    left: auto;
+	    top: -18px;
+	}
+	.main-header-area .logo-area a img,
+	.main-menu{
+		display: none;
+	}
+}
+@media only screen and (max-width: 480px){ 
+	.classic .banner-botton ul li {
+	    display: block; 
+		margin-bottom: 40px;
+	}
+	.classic .banner-botton ul li:nth-child(2) { 
+		margin-bottom: 0;
+	}
+}
