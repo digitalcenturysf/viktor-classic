@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @version 1.2.8
+ * @version 1.2.9
  * @package Viktor_Classic
  */
 
