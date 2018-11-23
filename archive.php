@@ -7,7 +7,7 @@
  * @version 1.2.8
  * @package Viktor_Classic
  */
-$viktor_lite_option = new Viktor_Lite_Options();
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">

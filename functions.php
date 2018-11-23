@@ -75,7 +75,7 @@ function viktor_classic_short_text_remove_shortcode($start=0,$end=90){
  */ 
 function vikor_classic_banner_temp(){ 
 	$h1_text = (!empty(get_theme_mod( 'h1_text' ))) ? get_theme_mod( 'h1_text' ) : 'Welcome to Viktor Classic';
-	$h3_text = (!empty(get_theme_mod( 'h3_text' ))) ? get_theme_mod( 'h3_text' ) : 'Viktor classic is asesome'; 
+	$h3_text = (!empty(get_theme_mod( 'h3_text' ))) ? get_theme_mod( 'h3_text' ) : 'Viktor classic is awesome'; 
 	$btn_left = (!empty(get_theme_mod( 'btn_left' ))) ? get_theme_mod( 'btn_left' ) : 'Download'; 
 	$btn_left_link = (!empty(get_theme_mod( 'btn_left_link' ))) ? get_theme_mod( 'btn_left_link' ) : '#'; 
 	$btn_right = (!empty(get_theme_mod( 'btn_right' ))) ? get_theme_mod( 'btn_right' ) : 'Contact Us'; 
@@ -107,76 +107,76 @@ function vikor_classic_banner_temp(){
 function viktor_classic_customize_register( $wp_customize ) { 
   
 	$wp_customize->add_setting( 'h1_text' , array(
-	    'default'     => '',
-	    'transport'   => 'postMessage', 
+	    'default'     		=> '',
+	    'transport'  		=> 'postMessage', 
 	    'sanitize_callback' => 'sanitize_text_field',
 	) ); 
 	$wp_customize->add_control( 'h1_text', array(
-	    'label' => __( 'Title', 'viktor-lite' ),
-		'section'	=> 'header_image',
-		'setting'	=> 'h1_text',
-		'type'	 => 'text',
-        'description'   => 'Write title here.'
+	    'label' 			=> __( 'Title', 'viktor-lite' ),
+		'section'			=> 'header_image',
+		'setting'			=> 'h1_text',
+		'type'	 			=> 'text',
+        'description'   	=> __( 'Write title here.', 'viktor-lite' ),
 	) ); 
 	$wp_customize->add_setting( 'h3_text' , array(
-	    'default'     => '',
-	    'transport'   => 'postMessage', 
+	    'default'     		=> '',
+	    'transport'   		=> 'postMessage', 
 	    'sanitize_callback' => 'sanitize_text_field',
 	) ); 
 	$wp_customize->add_control( 'h3_text', array(
-	    'label' => __( 'Subtitle', 'viktor-lite' ),
-		'section'	=> 'header_image',
-		'setting'	=> 'h3_text',
-		'type'	 => 'text',
-        'description'   => 'Write subtitle here.'
+	    'label' 			=> __( 'Subtitle', 'viktor-lite' ),
+		'section'			=> 'header_image',
+		'setting'			=> 'h3_text',
+		'type'	 			=> 'text',
+        'description'   	=> __( 'Write subtitle here.', 'viktor-lite' ), 
 	) ); 
 	$wp_customize->add_setting( 'btn_left' , array(
-	    'default'     => '',
-	    'transport'   => 'postMessage', 
+	    'default'     		=> '',
+	    'transport'   		=> 'postMessage', 
 	    'sanitize_callback' => 'sanitize_text_field',
 	) ); 
 	$wp_customize->add_control( 'btn_left', array(
-	    'label' => __( 'Button Left Title', 'viktor-lite' ),
-		'section'	=> 'header_image',
-		'setting'	=> 'btn_left',
-		'type'	 => 'text',
-        'description'   => 'Button left title here.'
+	    'label' 			=> __( 'Button Left Title', 'viktor-lite' ),
+		'section'			=> 'header_image',
+		'setting'			=> 'btn_left',
+		'type'	 			=> 'text',
+        'description'   	=> __( 'Button left title here.', 'viktor-lite' ),
 	) ); 
 	$wp_customize->add_setting( 'btn_left_link' , array(
-	    'default'     => '',
-	    'transport'   => 'postMessage', 
+	    'default'     		=> '',
+	    'transport'   		=> 'postMessage', 
 	    'sanitize_callback' => 'sanitize_text_field',
 	) ); 
 	$wp_customize->add_control( 'btn_left_link', array(
-	    'label' => __( 'Button Left Link', 'viktor-lite' ),
-		'section'	=> 'header_image',
-		'setting'	=> 'btn_left_link',
-		'type'	 => 'text',
-        'description'   => 'Button left link here.'
+	    'label' 			=> __( 'Button Left Link', 'viktor-lite' ),
+		'section'			=> 'header_image',
+		'setting'			=> 'btn_left_link',
+		'type'	 			=> 'text',
+        'description'   	=> __( 'Button left link here.', 'viktor-lite' ),
 	) ); 
 	$wp_customize->add_setting( 'btn_right' , array(
-	    'default'     => '',
-	    'transport'   => 'postMessage', 
+	    'default'     		=> '',
+	    'transport'   		=> 'postMessage', 
 	    'sanitize_callback' => 'sanitize_text_field',
 	) ); 
 	$wp_customize->add_control( 'btn_right', array(
-	    'label' => __( 'Button Right Title', 'viktor-lite' ),
-		'section'	=> 'header_image',
-		'setting'	=> 'btn_right',
-		'type'	 => 'text',
-        'description'   => 'Button left title here.'
+	    'label' 			=> __( 'Button Right Title', 'viktor-lite' ),
+		'section'			=> 'header_image',
+		'setting'			=> 'btn_right',
+		'type'	 			=> 'text',
+        'description'   	=> __( 'Button right title here.', 'viktor-lite' ),
 	) ); 
 	$wp_customize->add_setting( 'btn_right_link' , array(
-	    'default'     => '',
-	    'transport'   => 'postMessage', 
+	    'default'     		=> '',
+	    'transport'   		=> 'postMessage', 
 	    'sanitize_callback' => 'sanitize_text_field',
 	) ); 
 	$wp_customize->add_control( 'btn_right_link', array(
-	    'label' => __( 'Button Right Link', 'viktor-lite' ),
-		'section'	=> 'header_image',
-		'setting'	=> 'btn_right_link',
-		'type'	 => 'text',
-        'description'   => 'Button right link here.'
+	    'label' 			=> __( 'Button Right Link', 'viktor-lite' ),
+		'section'			=> 'header_image',
+		'setting'			=> 'btn_right_link',
+		'type'	 			=> 'text',
+        'description'   	=> __( 'Button right link here.', 'viktor-lite' ),
 	) ); 
 }
 add_action( 'customize_register', 'viktor_classic_customize_register' );

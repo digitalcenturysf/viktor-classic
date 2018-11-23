@@ -62,7 +62,7 @@ wp_head(); ?>
     if(is_home() && is_front_page()){
         vikor_classic_banner_temp();
     }else{
-        vikor_classic_banner_temp();
+        vikor_lite_banner_temp();
     }  
     ?>    
 

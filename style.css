@@ -11,9 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, one-column, two-columns, blog, right-sidebar, theme-options, footer-widgets, left-sidebar, grid-layout, custom-header
 Text Domain: viktor-classic
 */
-header { 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
+
 header.fixed-header{ 
     border-bottom-color: #000;
 }
@@ -32,10 +30,7 @@ header.fixed-header{
 }
 .vcontent.no-img{
 	border-top-width: 1px; 
-}
-.inner-page-header { 
-    height: 590px;
-}
+} 
 .banner-botton {
     padding-top: 15px;
 }
@@ -56,7 +51,7 @@ header.fixed-header{
 .classic .header-page-title a {
     border: 2px solid #fff;
     border-radius: 50px;
-    padding: 10px 20px; 
+    padding: 6px 35px; 
     margin: 0 10px;
 }
 .classic .header-page-title li:nth-child(1) a{
@@ -68,8 +63,13 @@ header.fixed-header{
 	color: #fff;
 }
 .classic.inner-page-header {
-    padding: 240px 0 170px !important;
-    height: inherit;
+	width: 100vw; 
+    height: 100vh;
+    vertical-align: middle;
+    display: table-cell;
+    padding-top: 13%;
+    background-attachment: fixed !important;
+    padding: 3% 0 0 0 !important;
 }
 .mean-container .mean-nav ul li a.mean-expand {
     width: 20px;

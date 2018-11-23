@@ -11,8 +11,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
+		<main id="main" class="site-main"> 
 	        <!-- News Details Page start here -->
 	        <div class="news-page-area single-news-page-area">
 	            <div class="container">
@@ -20,7 +19,7 @@ get_header(); ?>
 	                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 	                    	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		                        <div class="single-news-page" id="post-<?php the_ID(); ?>">
-		                            <?php get_template_part('template-parts/content','single'); ?>
+		                           <?php get_template_part('template-parts/content','single'); ?>
 	                               <?php 
 									// If comments are open or we have at least one comment, load up the comment template.
 									if ( comments_open() || get_comments_number() ) :
