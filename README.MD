@@ -8,7 +8,7 @@ View more themes from this author: https://digitalcenturysf.com
 ## Demo and Documentation
 * **Demo** : https://digitalcenturysf.com/demo/?theme=viktor-wp
 * **Documentation** : https://digitalcenturysf.com/docs/viktor-wp/
-* **Support Forum** : https://wordpress.org/support/theme/viktor-lite
+* **Support Forum** : https://wordpress.org/support/theme/viktor-clasic
 
 
 ## Table of Themes

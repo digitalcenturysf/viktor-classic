@@ -23,11 +23,8 @@ View more themes from this author: https://digitalcenturysf.com
 = 1.0.0 =
 * Initial Release
 
+
 == Resources ==
-
-* All images included in the theme are either created for the theme and inheriting its license, or licensed under CC0.
-* All other theme assets like scripts, stylesheets are licensed under GNU General Public License version 2, see file license.txt, or GPL compatible licenses like BSD, MIT, SIL. See headers of each files for further details.
-
  
- 
+* screenshot.png © 2018 geralt , CC0, https://pixabay.com/en/finger-touch-hand-structure-771824/ 
  
