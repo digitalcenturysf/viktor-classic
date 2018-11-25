@@ -1,6 +1,6 @@
 === Viktor Classic ===
 
-Contributors: (digitalcenturysf)
+Contributors: digitalcenturysf
 Tags: blog, news, two-columns, three-columns, left-sidebar, right-sidebar,  custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready 
 Requires at least: 4.0
 Tested up to: 4.7 
